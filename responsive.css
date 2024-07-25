@@ -1,0 +1,41 @@
+@media (width <= 576px) {
+    .grid-1,.grid-2,.grid-3,.grid-4,.grid-6{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .dflex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* width: 100%; */
+        padding: 1rem;
+        margin: 0;
+    }
+
+    li{
+        padding: 0.5rem;
+    }
+
+.whyHeadCard{
+    width:fit-content
+}
+
+.whyChooseUsHeadText p{
+    width: fit-content;
+}
+
+.aboutusBody{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.aboutusContactFoot{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+}
