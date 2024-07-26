@@ -217,7 +217,7 @@ a {
 
 .navBody1Logo img {
     width: 100%;
-    aspect-ratio: 16/4;
+    aspect-ratio: 16 / 4;
 /*     height: 17.2rem; */
 }
 
@@ -406,8 +406,9 @@ a {
 .whyHeadCard {
     display: flex;
     background-color: #faf8f8;
-    height: 10rem;
-    width: 10rem;
+/*     height: 10rem;
+    width: 10rem; */
+    aspect-ratio: 1 / 1;
     border-radius: 5rem;
     justify-content: center;
     align-items: center;
